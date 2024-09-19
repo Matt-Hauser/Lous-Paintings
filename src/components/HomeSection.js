@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Paper, Typography } from "@mui/material";
+import { Button, Grid, Paper, Typography } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 import homeDawg from "../images/homeDawg.jpg";
 
@@ -94,7 +94,7 @@ export default function Home({ contactScroll }) {
         sx={{
           display: { xs: "none", md: "flex" },
           justifyContent: "flex-end",
-          justifyContent: "center",
+
           alignItems: "center",
         }}
       >

@@ -2,8 +2,7 @@ import { NavBar } from "./components/NavBar";
 
 import React from "react";
 import { Box, Grid } from "@mui/material";
-import lightsBg from "./images/lightsBg.webp";
-import roomBg from "./images/roomBg.jpeg";
+
 import roomBg1 from "./images/roomBg1.avif";
 import "./App.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -13,10 +12,8 @@ import Skills from "./components/SkillsSection.js";
 import Home from "./components/HomeSection.js";
 import Projects from "./components/ProjectsSection.js";
 import Contact from "./components/ContactSection.js";
-import mattlogo from "./images/mattlogow.png";
+
 import { useRef } from "react";
-import { Opacity } from "@mui/icons-material";
-import lousLogo from "./images/lousLogo.png";
 
 function App() {
   const homeRef = useRef(null);

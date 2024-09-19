@@ -31,11 +31,7 @@ export default function Projects() {
         love of art, Lou’s Paintings was created in 2019 and has since created
         over 300 commissioned paintings.
       </Typography>
-      <img
-        alt="Lou's Bio Picture"
-        style={{ marginTop: "30px" }}
-        src={louBio}
-      ></img>
+      <img alt="lous bio" style={{ marginTop: "30px" }} src={louBio}></img>
     </Box>
   );
 }
