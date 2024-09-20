@@ -45,7 +45,7 @@ export default function Contact() {
           <Typography fontFamily={"Noto Serif"}>
             Fill in your contact information below and leave me a short but
             detailed request for your personal painting. Please include any
-            relevant images and sizing options("8x10", "9x12", or "11x13"). I
+            relevant images and sizing options("8x10", "9x12", or "11x14"). I
             will respond shortly to review your order and confirm
             details/pricing.
           </Typography>

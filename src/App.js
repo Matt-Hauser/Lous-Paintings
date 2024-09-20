@@ -3,7 +3,7 @@ import { NavBar } from "./components/NavBar";
 import React from "react";
 import { Box, Grid } from "@mui/material";
 
-import roomBg1 from "./images/roomBg1.avif";
+import roomBg2 from "./images/roomBg2.jpeg";
 import "./App.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -38,7 +38,7 @@ function App() {
       <Box
         ref={homeRef}
         style={{
-          backgroundImage: `url(${roomBg1})`,
+          backgroundImage: `url(${roomBg2})`,
           //background: "white",
           height: "920px",
 

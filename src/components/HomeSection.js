@@ -17,7 +17,7 @@ export default function Home({ contactScroll }) {
           justifyContent: "center",
           flexDirection: "column",
           alignItems: "center",
-          background: "rgb(250, 249, 246, .85)",
+          background: "rgb(250, 249, 246, .70)",
 
           borderRadius: "5%",
           padding: 3,
@@ -93,7 +93,7 @@ export default function Home({ contactScroll }) {
         md={6}
         sx={{
           display: { xs: "none", md: "flex" },
-          justifyContent: "flex-end",
+          justifyContent: "center",
 
           alignItems: "center",
         }}
