@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid, Paper, Typography } from "@mui/material";
 import React from "react";
 import { ContactForm } from "./ContactForm";
 import contact from "../images/contact3.png";
@@ -20,8 +20,23 @@ export default function Contact() {
         justifyContent={"center"}
         alignItems={"center"}
         rowSpacing={2}
+        flexDirection={"column"}
       >
         <img alt="contact me" src={contact} width={400} height={370} />
+
+        <Paper sx={{ p: 0.5, backgroundColor: "whitesmoke" }}>
+          <a
+            style={{
+              textDecoration: "none",
+              color: "black",
+              active: { color: "black" },
+              fontSize: 14,
+            }}
+            href="https://www.freepik.com/free-vector/woman-personal-profile-employer-holding-job-candidate-cv-employee-resume-isolated-flat-design-element-medical-clinic-hospital-patient-card-concept-illustration_11667128.htm#fromView=author&page=1&position=36&uuid=df9ba1a6-15c6-45a6-9427-1ba6f0900b86"
+          >
+            Image by vectorjuice on Freepik
+          </a>
+        </Paper>
       </Grid>
 
       <Grid

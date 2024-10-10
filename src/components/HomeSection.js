@@ -26,8 +26,7 @@ export default function Home({ contactScroll }) {
       >
         <Paper
           sx={{
-            background:
-              "linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6)",
+            background: "linear-gradient(to right, #667db6, #0082c8, #667db6)",
             //bgcolor: "#1565C0",
             p: 0.7,
             m: 1,
